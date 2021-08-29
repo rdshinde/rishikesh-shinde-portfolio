@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: #1687a7;
+    --secondary: #276678;
+    --primary-light: #d3e0ea;
+    --primary-dark: #03506f;
+    --background: #f4f9f9;
+    --width-break: 800px;
+  }
+  
+  body {
+    font-family: "Calistoga", sans-serif;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--background);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.technologies-logos {
+  text-align: center;
+  display: inline-flex;
+  grid-template-columns: auto;
+}
+.logo-img{
+    width: 55px;   
+}
+.logo{
+    margin: 0.5rem;
+}
+figcaption{
+    font-size: 1rem;
+    
+}

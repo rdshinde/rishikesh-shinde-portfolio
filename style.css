@@ -114,8 +114,8 @@ main {
   margin-top: 2rem;
   /* On scroll-animation */
   opacity: 0;
-  transform: translateY(4rem)rotateZ(5deg);
-  transition: transform 4s .25s cubic-bezier(0,1,0.3,1),  opacity .3s .25s ease-out  ;
+  transform: translateY(7rem)rotateZ(5deg);
+  transition: transform 3s .25s cubic-bezier(0,1,0.3,1),  opacity .3s .25s ease-out  ;
   will-change: transform, opacity;
   
 }

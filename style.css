@@ -28,6 +28,7 @@ a {
 span {
   color: var(--secondary);
 }
+
 h1 {
   font-size: 3rem;
   color: white;
@@ -111,10 +112,30 @@ main {
   background-color: var(--primary-light);
   padding: 2rem;
   margin-top: 2rem;
+  /* On scroll-animation */
+  opacity: 0;
+  transform: translateY(4rem)rotateZ(5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,0.3,1),  opacity .3s .25s ease-out  ;
+  will-change: transform, opacity;
+  
 }
+.bg-change.is-visible{
+  opacity: 1 ;
+  transform: rotateY(-2deg);
+}
+
 .normal-bg {
   padding: 2rem;
   margin-top: 2rem;
+  /* On scroll-animation */
+  opacity: 0;
+  transform: translateY(4rem)rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,0.3,1),  opacity .3s .25s ease-out  ;
+  will-change: transform, opacity;
+}
+.normal-bg.is-visible{
+  opacity: 1 ;
+  transform: rotateY(-2deg);
 }
 .technologies-logos {
   text-align: center;
@@ -162,6 +183,17 @@ footer {
 }
 footer > a {
   color: var(--primary-dark);
+}
+/* On scroll Animation */
+.hero-img{
+  opacity: 0;
+  transform: translateY(4rem)rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,0.3,1),  opacity .3s .25s ease-out  ;
+  will-change: transform, opacity;
+}
+.hero-img.is-visible{
+  opacity: 1 ;
+  transform: rotateY(-2deg);
 }
 
 @media (max-width: 420px) {

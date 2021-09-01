@@ -205,7 +205,8 @@ footer > a {
   }
   
   .hero-img{
-    padding-top: 25%;
+    margin-top:10vh;
+    padding-top: 5vh;
     width: 20vh;
   }
   .technologies-logos {

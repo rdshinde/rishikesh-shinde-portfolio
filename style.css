@@ -62,6 +62,7 @@ strong {
 }
 
 header {
+  
   background-image: linear-gradient(var(--primary), var(--secondary));
   position: fixed;
   width: 100%;

@@ -66,6 +66,7 @@ header {
   position: fixed;
   width: 100%;
   box-shadow: 10px 5px 5px var(--primary-dark);
+  z-index: 50;
 }
 /* navbar elements */
 ul {
